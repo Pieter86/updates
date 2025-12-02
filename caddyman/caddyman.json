@@ -3,6 +3,6 @@
   "program_name": "CaddyMAN",
   "download_url": "https://github.com/Pieter86/caddyman/releases/download/v1.3.4-amd64-win/CaddyMAN.exe",
   "release_notes": "Security & Features Update - Fixed email field loading in user edit; Implemented hierarchical LDAP search; Fixed OAuth client group display; Added DEBUG_MODE flag; Set secure=True on cookies; Added return_to validation; Improved IPv4 validation",
-  "release_date": "2025-01-29",
+  "release_date": "2025-12-02",
   "min_version_required": "1.0.0"
 }
