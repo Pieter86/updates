@@ -1,9 +1,8 @@
 {
-  "version": "1.3.8",
+  "version": "1.3.9",
   "program_name": "CaddyMAN",
-  "download_url": "https://github.com/Pieter86/caddyman/releases/download/v1.3.8-amd64-win/CaddyMAN.exe",
-  "release_notes": "Auth Routing Fix for Protected Sites - Fixed /auth/* route bypass logic to properly differentiate between CaddyMAN-protected sites and self-authenticating services like Audiobookshelf; Protected reverse proxies and file servers now work correctly alongside services with their own authentication",
-  "release_date": "2025-12-06",
+  "download_url": "https://github.com/Pieter86/caddyman/releases/download/v1.3.9-amd64-win/CaddyMAN.exe",
+  "release_notes": "Major Security Hardening & UX Improvements - Fixed XSS vulnerabilities across all admin interface JavaScript (14+ innerHTML usages now properly escaped); Added password visibility toggles for RADIUS secret, SMTP password, and notification token fields; Disabled FastAPI documentation endpoints to prevent API schema exposure; Mobile responsive fixes for OIDC settings and OAuth client cards; OAuth client cards redesigned with cleaner layout; Improved invite link system - creating new invite for existing username now automatically replaces old invite instead of blocking; Enhanced HTML security helper functions across all JavaScript files",
+  "release_date": "2025-12-09",
   "min_version_required": "1.0.0"
 }
-
