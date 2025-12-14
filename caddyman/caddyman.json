@@ -2,9 +2,10 @@
   "version": "1.3.13",
   "program_name": "CaddyMAN",
   "download_url": "https://github.com/Pieter86/caddyman/releases/download/v1.3.13-amd64-win/CaddyMAN.exe",
-  "sha256": "9abafc0d0f861017909d47e31b4e2ccdfd3735f0dfb3280deaece95a02a4c775",
+  "sha256": "b254ba2fe356a455c0715e91ac31c8aa25a1ee7c163384940af2eb7937ffea4d",
   "release_notes": "Critical bug fixes - Settings page now preserves authentication settings; Configurable log levels for CaddyMAN and Caddy; SHA256 hash verification for updates; caddyman-update.exe with --auto mode for scheduled updates",
   "release_date": "2025-12-14",
   "min_version_required": "1.0.0"
 
 }
+
