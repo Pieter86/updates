@@ -1,13 +1,14 @@
 {
-  "version": "1.3.16",
+  "version": "1.3.17",
   "program_name": "CaddyMAN",
-  "download_url": "https://github.com/Pieter86/caddyman/releases/download/v1.3.16-amd64-win/CaddyMAN.exe",
-  "sha256": "7bada38f26d89eb49955dad16787889b04d738baca67abbddf717147db086d91",
-  "release_notes": "Security & Real-time Updates - Implemented server-side SSE monitoring for pending invites with adaptive push intervals (60s when >1min remaining, 1s when <1min); Added comprehensive Blocked IPs security feature with automatic escalation to permanent block after 3 violations, manual status control (permanent/temporary/monitoring), external IP detection, and configurable notifications; Enabled FastAPI documentation endpoints (/docs, /redoc, /openapi.json) when log level set to DEBUG with warning banner on admin pages; Added automatic system-managed proxy for Domain URL setting - creates/updates/deletes proxy configuration automatically when domain URL changes, replaces user-created duplicates on startup, locks proxy at top of list with optimal settings (flush_interval=-1, auto HTTPS upgrade); Fixed Python syntax error with nested f-strings in brute force logging; Fixed background health check logging for proxies without upstreams changed from WARNING to INFO; Enhanced mobile-friendly responsive design for all new features",
-  "release_date": "2025-12-21",
-  "min_version_required": "1.0.0"
+  "download_url": "https://github.com/Pieter86/caddyman/releases/download/v1.3.17-amd64-win/CaddyMAN.exe",
+  "sha256": "eec96e24d332a45f221b76bc19ad428c8122173394eb82d54b1fe159e14d35d5",
+  "release_notes": "v1.3.17 is a major cleanup and security enhancement release focusing on code modernization, improved documentation accuracy, RADIUS security improvements, and critical bug fixes.",
+  "release_date": "2025-12-24",
+  "min_version_required": "1.3.16"
 
 }
+
 
 
 
