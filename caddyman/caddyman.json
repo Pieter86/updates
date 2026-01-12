@@ -1,13 +1,14 @@
 {
-  "version": "1.3.17",
+  "version": "1.3.18",
   "program_name": "CaddyMAN",
-  "download_url": "https://github.com/Pieter86/caddyman/releases/download/v1.3.17-amd64-win/CaddyMAN.exe",
-  "sha256": "eec96e24d332a45f221b76bc19ad428c8122173394eb82d54b1fe159e14d35d5",
-  "release_notes": "v1.3.17 is a major cleanup and security enhancement release focusing on code modernization, improved documentation accuracy, RADIUS security improvements, and critical bug fixes.",
-  "release_date": "2025-12-24",
+  "download_url": "https://github.com/Pieter86/caddyman/releases/download/v1.3.18-amd64-win/CaddyMAN.exe",
+  "sha256": "9c62bd81c03455a22572618c8dc9ccc3b459bc80dd9a39203418a3587399de39",
+  "release_notes": "Fixed LDAP authentication notifications - now sends `ldap_auth_failed` notifications for ALL failure scenarios",
+  "release_date": "2026-01-12",
   "min_version_required": "1.3.16"
 
 }
+
 
 
 
