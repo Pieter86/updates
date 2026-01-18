@@ -1,13 +1,14 @@
 {
-  "version": "1.3.18",
+  "version": "1.3.19",
   "program_name": "CaddyMAN",
   "download_url": "https://github.com/Pieter86/caddyman/releases/download/v1.3.18-amd64-win/CaddyMAN.exe",
-  "sha256": "9c62bd81c03455a22572618c8dc9ccc3b459bc80dd9a39203418a3587399de39",
-  "release_notes": "Fixed LDAP authentication notifications - now sends `ldap_auth_failed` notifications for ALL failure scenarios",
-  "release_date": "2026-01-12",
+  "sha256": "eb14650b48963b6221302452976110801f515226a01c33b7030f59ea69d9b146",
+  "release_notes": "Fixed database migration for `managed` column in reverse_proxies table. Ensures existing databases are properly upgraded with all required columns",
+  "release_date": "2026-01-18",
   "min_version_required": "1.3.16"
 
 }
+
 
 
 
