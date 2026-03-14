@@ -1,10 +1,10 @@
 {
-  "version": "1.3.22",
+  "version": "1.3.23",
   "program_name": "CaddyMAN",
-  "download_url": "https://github.com/Pieter86/caddyman/releases/download/v1.3.22-amd64-win/CaddyMAN.exe",
-  "sha256": "2bbabdaa34b050279f5227b5eda662c33f50505df3895ac376a91bacf34762a1",
-  "release_notes": "Find release notes at https://github.com/Pieter86/caddyman/releases/tag/v1.3.22-amd64-win",
-  "release_date": "2026-01-31",
+  "download_url": "https://github.com/Pieter86/caddyman/releases/download/v1.3.23-amd64-win/CaddyMAN.exe",
+  "sha256": "f82391194e1c7288beeb973a3ccae64baab6f3fdcbb29f8984852090c2ed633d",
+  "release_notes": "Find release notes at https://github.com/Pieter86/caddyman/releases/tag/v1.3.23-amd64-win",
+  "release_date": "2026-03-15",
   "min_version_required": "1.3.16"
 
 }
